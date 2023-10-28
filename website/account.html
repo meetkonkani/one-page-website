@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login To Your Account</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color:#454344 ;
+		}
+		
+		form {
+			width: 400px;
+			margin: 50px auto;
+			padding: 20px;
+			background-color: #f52e20;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		}
+		
+		h1 {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+		
+		label {
+			display: block;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		input[type="text"], input[type="password"] {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: none;
+			border-bottom: 1px solid #ccc;
+			font-size: 16px;
+			color: #000000;
+			box-sizing: border-box;
+			transition: border-color 0.2s;
+		}
+		
+		input[type="text"]:focus, input[type="password"]:focus {
+			border-color: #333;
+		}
+		
+		button {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			border: none;
+			background-color: #333;
+			color: #fff;
+			font-size: 16px;
+			cursor: pointer;
+		}
+		
+		button:hover {
+			background-color: #ffffff;
+		}
+        a {
+            display: block;
+			width: 100%;
+			padding: 10px;
+			border: none;
+			background-color: #333;
+			color: #fff;
+			font-size: 16px;
+			cursor: pointer;
+
+			text-align: center;
+			margin-bottom: 30px;
+            display: block;
+			font-weight: bold;
+			margin-bottom: 10px;
+        }
+		#bbb{
+			color: #fafafa;
+		}
+	</style>
+</head>
+<body>
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="description" content="Dobro dosli u najbolji kafic na svetu">
+		<meta name="keywords" content="Kafic">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		<title>Royal Enfield</title>
+	</head>
+	<body>
+		<header>
+			<nav id="navbar"> 
+			<div class="container">
+			  <h1 class="logo">
+			  <a href="index.html">
+				<img src="logo.svg" alt="logo">
+			  </a>
+			  <span class="hidden">Royal Enfield</span>
+			</h1>
+					<ul> 
+						<li><a class="current" href="index.html">Home</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="account.html">Login</a></li>
+					</ul>
+				  </div>
+				</nav>          
+			</header>	
+	<form>
+		<h1>Login To Your Account</h1>
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email" required>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+		<button type="submit">LogIn</button>
+        <br><hr><br><br>
+        <a id="bbb" href="accountcreate.html">Create New Account</a>
+	</form>
+</body>
+</html>
